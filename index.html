@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Statistic solver</title>
+</head>
+
+<body>
+    <header>
+        <h1>Statistic solver</h1>
+        <p>By Cendy</p>
+        <button type="button">Calculate!</button>
+        <div class="calculation-info">
+            <p class="sr">SR : ...</p>
+            <p class="sd">SD : ...</p>
+            <p class="xper">xper : ...</p>
+            <p class="fitotal"><i>f</i><sub>i</sub> total : ...</p>
+            <p class="fixitotal"><i>f</i><sub>i</sub> . <i>x</i><sub>i</sub> total : ...</p>
+            <p class="fiabsximinxper"><i>f</i><sub>i</sub> | x<sub>i</sub> - xper | total : ...</p>
+            <p class="fiximinxperpow2"><i>f</i><sub>i</sub> ( x<sub>i</sub> - xper )<sup>2</sup> total : ...</p>
+        </div>
+    </header>
+    <main>
+        <div class="table">
+            <div class="score">
+                <div class="table-name">
+                    <p>Score</p>
+                </div>
+            </div>
+            <div class="function">
+                <div class="table-name">
+                    <p><i>f</i></p>
+                </div>
+            </div>
+            <div class="xi">
+                <div class="table-name">
+                    <p>x<sub>i</sub></p>
+                </div>
+            </div>
+            <div class="xifi">
+                <div class="table-name">
+                    <p>x<sub>i</sub> . <i>f</i><sub>i</sub></p>
+                </div>
+            </div>
+            <div class="xi-xper">
+                <div class="table-name">
+                    <p>x<sub>i</sub> - xper</p>
+                </div>
+            </div>
+            <div class="absxi-xper">
+                <div class="table-name">
+                    <p>| x<sub>i</sub> - xper |</p>
+                </div>
+            </div>
+            <div class="fiabsxi-xper">
+                <div class="table-name">
+                    <p><i>f</i><sub>i</sub> | x<sub>i</sub> - xper |</p>
+                </div>
+            </div>
+            <div class="xi-xperpw2">
+                <div class="table-name">
+                    <p>( x<sub>i</sub> - xper )<sup>2</sup></p>
+                </div>
+            </div>
+            <div class="fixi-xperpw2">
+                <div class="table-name">
+                    <p><i>f</i><sub>i</sub> ( x<sub>i</sub> - xper )<sup>2</sup></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="column-input">
+        <form>
+            <label for="column">How many column : </label>
+            <input type="number" id="column">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="rotate-container">
+        <h1>Rotate your phone! :3</h1>
+    </div>
+</body>
+
+</html>
